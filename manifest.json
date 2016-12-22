@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "xkcd Explainer",
+    "version": "0.1.0",
+
+    "description": "Adds a link on xkcd comics to corresponding page on explainxkcd.com",
+
+    "page_action": {
+        "default_icon": "icon.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "tabs",
+        "declarativeContent"
+    ]
+}
